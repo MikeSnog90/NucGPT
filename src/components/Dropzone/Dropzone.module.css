@@ -1,0 +1,24 @@
+.dropzone {
+	border: 2px dashed #999;
+	padding: 40px;
+	border-radius: 12px;
+	position: relative;
+	text-align: center;
+	background: #fafafa;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.dragging {
+	background: #e7e7e7;
+	border-color: #555;
+}
+
+.fileInput {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}

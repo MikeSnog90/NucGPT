@@ -1,0 +1,17 @@
+/* MainLayout.module.css */
+.container {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100%;
+}
+
+.main {
+	flex: 1;
+	width: 100%;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(180deg, #cfdbf3, #4ecdc4);
+}

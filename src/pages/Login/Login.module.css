@@ -1,0 +1,22 @@
+/* Login.module.css */
+.containerLogin {
+	width: 100%;
+	min-height: 100dvh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loginBox {
+	background: #fff;
+	text-align: center;
+	padding: 2rem 1rem;
+	width: 320px;
+	height: 550px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.loginBox h5 {
+	color: #e53e3e;
+}

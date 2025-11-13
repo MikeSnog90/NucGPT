@@ -1,0 +1,69 @@
+nucgpt-react/
+├── public/
+│   └── vite.svg
+│
+├── src/
+│   ├── assets/
+│   │   ├── (imagens, ícones, etc.)
+│   │   ├── logoSisGPT.svg
+│   │   ├── react.svg
+│   │   └── vetor.svg
+│   │
+│   ├── auth/
+│   │   ├── AuthContext.jsx
+│   │   └── ProtectedRoute.jsx
+│   │
+│   ├── components/
+│   │   ├── Footer/
+│   │   │   ├── index.jsx
+│   │   │   └── Footer.module.css
+│   │   ├── MainContent/
+│   │   │   ├── index.jsx
+│   │   │   └── MainContent.module.css
+│   │   ├── Navbar/
+│   │   │   ├── index.jsx
+│   │   │   └── Navbar.module.css
+│   │   └── Sidebar/
+│   │       ├── index.jsx
+│   │       └── Sidebar.module.css
+│   │
+│   ├── layouts/
+│   │   ├── MainLayout.jsx
+│   │   └── MainLayout.module.css
+│   │
+│   ├── mocks/
+│   │   └── users.js
+│   │
+│   └── pages/
+│       ├── Login/
+│       │   ├── index.jsx
+│       │   └── Login.module.css
+│       ├── NucGPT/
+│       │   ├── index.jsx
+│       │   └── NucGPT.module.css
+│       ├── Perfil/
+│       │   ├── index.jsx
+│       │   └── Perfil.module.css
+│       ├── Qualidade/
+│       │   ├── index.jsx
+│       │   └── Qualidade.module.css
+│       └── Referencia/
+│           ├── index.jsx
+│           └── Referencia.module.css
+│   
+├── Styles/
+│   ├── bootstrap/
+│   │   ├── css
+│   │   │   └── bootstrap.min.css
+│   │   └── js
+│   │       └── bootstrap.bundle.min.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md

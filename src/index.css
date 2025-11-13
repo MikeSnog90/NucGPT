@@ -1,0 +1,87 @@
+/* src/index.css */
+
+/* 1. Variáveis de tema (mantidas) */
+:root {
+	/* Cores do tema (você define, os componentes usam) */
+	--cor-primaria: #23282f;
+	--cor-secundaria: #d69e2e;
+	--cor-fundo: #f7fafc;
+	--cor-sucesso: #38a169;
+	--cor-erro: #e53e3e;
+	--cor-texto: #1e3a5f;
+	--cor-texto-secundario: #4a5568;
+	--cor-cinza: #dcdfe0;
+
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: var(--cor-texto);
+	background-color: var(--cor-fundo);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* ========================================================== */
+/* 2. Box-sizing global (OBRIGATÓRIO) */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* 3. Reset mínimo de margin/padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+/* 4. Body básico — sem forçar layout */
+body {
+	margin: 0;
+	min-height: 100vh;
+	background: var(--cor-fundo);
+	color: var(--cor-texto);
+}
+
+/* 5. Links e botões com estilo mínimo (opcional, mas útil) */
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	font-family: inherit;
+	cursor: pointer;
+} 
+
+/* 6. Tema claro (opcional, mas elegante) */
+/* @media (prefers-color-scheme: light) {
+	:root {
+		--cor-texto: #213547;
+		--cor-fundo: #ffffff;
+	}
+}
